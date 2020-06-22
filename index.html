@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="contenuers">
+        <h1>mon formulaire</h1>
+        <form action="index.js" method="post">
+
+        <div class="champs">
+            <label for="pseudo">entrez un pseudo :</label> 
+            <input type="text" id="pseudo" name="pseudo" required  >
+            <span id="aiderpseudo"></span>
+        </div>
+
+        <!--espace reserver au speudonyme-->
+
+        <div class="champs">
+           <label for="passe">entrez votre mot de passe :</label>
+           <input type="password" id="passe" name="passe" required>
+           <span class="aidepasse"></span>
+        </div>
+        
+           <!--champs reserver au mot de passe-->
+
+        <div class="champs">
+           <label for="mail">entrez votre adresse mail : </label>
+           <input type="email" id="mail" name="email" required  placeholder="utilisateur@domain.fr">
+        </div>
+        
+       
+        <p>
+
+        </p>
+        <div id="nationalite">
+        <label for="nationalité" >nationalité</label>
+        <select name="nationalité" id="nationalité">
+            <option value="fr">Francais</option>
+            <option value="Be">Belgique</option>
+            <option value="ANG">Angleterre</option>
+            <option value="sui">Suisse</option>
+            <option value="xxx">Autre</option>
+        </select>
+    </div>
+    <div class="confirmation">
+        <input type="checkbox" name="confirmation" id="cpnfirmation">
+        <label for="confirmation">M'envoyer un courriel de confirmation</label>
+    </div>
+        <div class="champs">
+            <input type="button" value="valider" class="button">
+        </div>
+        </form>
+        
+        <script src="index.js"></script>
+    </div>
+</body>
+</html>

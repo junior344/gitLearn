@@ -1,0 +1,34 @@
+#contenuers{
+    border: 2px black solid;
+    background-color: cornsilk;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+#contenuers h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-family: monospace;
+}
+label{
+    font-family: monospace;
+}
+form{
+    margin-left: 1.5em;
+
+}
+#nationalite{
+    margin: 0 auto;
+}
+.button{
+    display: flex;
+    font-size: 1.2em;
+    padding: 0.5em;
+    margin: 0.5em;
+   font-family: monospace;
+   text-align: center;
+}
+.champs{
+    margin: 15px;
+}
